@@ -9,7 +9,7 @@ public class Timerconverter {
         System.out.println("please enter seconds to  convert minutes");
         int secondsUserenters = sc.nextInt();
         int minutes = secondsUserenters / 60;
-      int remainingSeconds = secondsUserenters % 60;
+        int remainingSeconds = secondsUserenters % 60;
 
        
        System.out.println( minutes + " "+ " minutes " + " " + remainingSeconds + " " + "seconds" );
