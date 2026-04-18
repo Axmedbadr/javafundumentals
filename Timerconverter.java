@@ -5,9 +5,9 @@ public class Timerconverter {
 
     public static void main(String[] args) {
     
-        Scanner  sc = new Scanner(System.in);
+        Scanner  input = new Scanner(System.in);
         System.out.println("please enter seconds to  convert minutes");
-        int secondsUserenters = sc.nextInt();
+        int secondsUserenters = input.nextInt();
         int minutes = secondsUserenters / 60;
         int remainingSeconds = secondsUserenters % 60;
 
